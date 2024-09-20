@@ -1,0 +1,53 @@
+header {
+    background-color: #DDD;
+}
+
+#cabecera-logo {
+    width: 64px;
+    height: 64px;
+}
+
+#principal {
+    text-align: center;
+}
+
+
+#contacto {
+	text-align: center;
+}
+
+#contacto-form {
+	display: block;
+}
+
+#form {
+	display: inline-block; 
+}
+
+#form-contenido {
+    width: 300px;
+    height: 128px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+#mapa {
+	height: 74%;
+	width: 60%;
+	margin: 0px auto;
+}
+
+#mapa-div {
+	text-align: center;
+}
+
+#img-mapa {
+	border: 2px #666 solid;
+	width: 560px;
+	border-radius: 12px;
+}
+
+footer {
+    background-color: #DDD;
+    height: 92px;
+}

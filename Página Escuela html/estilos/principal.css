@@ -1,0 +1,181 @@
+body {
+	margin: 0;
+}
+
+#cabecera {
+	height: 120%;
+	
+	background-image: linear-gradient(#BDFF, #DEF4, #FFF), url("../images/bg-masthead.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100% 100%, cover;
+	background-position: center, center;
+
+	text-align: center;
+}
+
+#logo {
+	margin-top: 32px;
+	height: 30%;
+}
+
+#titulo {
+    color: #111;
+	margin-bottom: 4px;
+}
+
+h1, h2, h3, p, a, input, textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titulo-nombre {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+	margin-top: 4px;
+}
+
+#cabecera-nav {
+	display: inline-block;
+	margin-top: 0px;
+	text-align: center;
+	background-color: #FFF8;
+	border-radius: 8px;
+}
+
+#cabecera-nav a {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #25D;
+	padding: 6px 16px;
+}
+
+h2 {
+	margin-top: 32px;
+}
+
+#informacion {
+	text-align: center;
+}
+
+#informacion h3 {
+	margin-top: 0px;
+}
+
+#info-creacion, #info-actualidad, #info-enseñar {
+	vertical-align: top;
+	display: inline-block;
+    width: 280px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	text-align: left;
+	border: 2px #0003 solid;
+	border-radius: 12px;
+	padding: 20px;
+}
+
+#areas-taller-desc {
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+#areas-electro-desc {
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+#areas-info-desc {
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+#galeria div {
+	display: inline-block;
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+#galeria-taller img {
+	margin: 4px;
+}
+
+#galeria div p {
+	margin-top: 2px;
+	margin-bottom: 16px;
+}
+
+#form-nombre, #form-asunto {
+	display: block;
+    width: 300px;
+	margin-bottom: 12px;
+}
+
+#contacto {
+	text-align: center;
+}
+
+#contacto-form {
+	display: block;
+}
+
+#form {
+	display: inline-block; 
+}
+
+#form-contenido {
+    width: 300px;
+    height: 128px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+#contacto-mapa {
+	float: left;
+	height: 74%;
+	width: 50%;
+}
+
+#contacto-redes {
+	float: right;
+	height: 74%;
+	width: 50%;
+	vertical-align: middle;
+}
+
+#mapa-div {
+	text-align: center;
+}
+
+#contacto-separacion {
+	width: 0px;
+}
+
+#img-mapa {
+	border: 2px #666 solid;
+	width: 560px;
+	border-radius: 12px;
+}
+
+#redes-fb, #redes-ig {
+	display: block;
+	text-align: center;
+	margin-top: 48px;
+}
+
+#redes-fb-a, #redes-ig-a {
+	display: inline-block;
+	text-decoration: none;
+
+	padding: 12px;
+	border-radius: 12px;
+	border: 2px #666 solid;
+}
